@@ -1,0 +1,113 @@
+/*-- RESET --*/
+
+html {
+    box-sizing: border-box;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*-- Globales --*/
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --LightGray: hsl(212, 45%, 89%);
+    --GrayishBlue: hsl(220, 15%, 55%);
+    --DarkBlue: hsl(218, 44%, 22%);
+}
+
+
+
+body {
+    background-color: var(--GrayishBlue);
+    font-family: 'Outfit', sans-serif;
+}
+
+.contenedor {
+    height: 95vh;
+    display: flex;
+}
+
+.whiteBox {
+    background-color: var(--White);
+    height: 456px;
+    width: 296px;
+    margin: auto;
+    border-radius: 4%;
+}
+
+img {
+    height: 16.5rem;
+    width: 16.5rem;
+    border-radius: 4%;
+    margin: 1rem 1rem 0rem 1rem;
+}
+
+.textoPrincipal__container {
+    margin: 1rem;
+    padding: 0 1rem 0 1rem;
+    text-align: center;
+}
+
+.textoPrincipal {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.textoSecundario__container {
+    margin: 1rem;
+    text-align: center;
+}
+
+.textoSecundario {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/*-- Footer --*/
+.attribution {
+    height: 1vh;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/*-- mediaquerys --*/
+
+@media (min-width: 390px) {
+    .contenedor {
+        height: 75vh;
+    }
+}
