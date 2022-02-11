@@ -48,13 +48,17 @@ img {
 
 
 body {
-    background-color: var(--GrayishBlue);
+    background-color: var(--LightGray);
     font-family: 'Outfit', sans-serif;
 }
 
 .contenedor {
-    height: 95vh;
+    background-color: rebeccapurple;
+    max-width: 1440px;
+    height: 100vh;
     display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .whiteBox {
@@ -94,7 +98,7 @@ img {
 }
 
 /*-- Footer --*/
-.attribution {
+/* .attribution {
     height: 1vh;
     font-size: 11px;
     text-align: center;
@@ -104,10 +108,11 @@ img {
     color: hsl(228, 45%, 44%);
 }
 
+*/
 /*-- mediaquerys --*/
 
-@media (min-width: 390px) {
+/* @media (min-width: 390px) {
     .contenedor {
         height: 75vh;
     }
-}
+} */
